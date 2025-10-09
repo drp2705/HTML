@@ -1,0 +1,71 @@
+Module 15) HTML in Full Stack
+1. HTML Basics
+Theory Assignment
+Que. 1: Define HTML. What is the purpose of HTML in web development?
+-->     HTML stands for HyperText Markup Language. It is the standard markup language used to create and design the structure of web pages. HTML is not a programming 	language — it is a markup language that uses tags to define elements like headings, paragraphs, links, images, tables, and more.
+	The main purpose of HTML is to structure and organize content on the web so that browsers (like Chrome, Edge, or Firefox) can display it properly.
+
+Que. 2: Explain the basic structure of an HTML document. Identify the mandatory tags and their purposes.
+-->
+	<!DOCTYPE html>
+	<html>
+	<head>
+  	<title>Page Title</title>
+	</head>
+	<body>
+  	<h1>Welcome to My Web Page</h1>
+  	<p>This is an example of a basic HTML document.</p>
+	</body>
+	</html>
+
+
+Mandatory Tags : 
+ 
+	<!DOCTYPE html> – Defines the HTML version (HTML5).
+
+	<html> – Root element that wraps the entire page content.
+
+	<head> – Includes metadata and page information.
+
+	<title> – Displays the page name in the browser tab.
+
+	<body> – Contains visible page content.
+
+Que. 3: What is the difference between block-level elements and inline elements in
+	HTML? Provide examples of each.
+-->	Block-level Elements : Block-level elements start on a new line and take up the full width available (stretching from left to right).
+	They form the main structure or sections of a web page.	
+	
+Example: 
+	<h1>This is a heading</h1>
+	<p>This is a paragraph under the heading.</p>
+	<div>This is a block-level container.</div>
+
+-->	Inline Elements : Inline elements do not start on a new line and only take up as much width as necessary.
+	They are used for formatting small portions of content within a line.
+
+Example: 
+	<p>This is <b>bold text</b> and <i>italic text</i> inside a paragraph.</p>
+	<a href="#">Click here</a> to visit our site.
+
+2. HTML Forms
+Theory Assignment
+
+Que. 1: What are HTML forms used for? Describe the purpose of the input, textarea,select, and button elements.
+-->	HTML forms are used to collect input or data from users on a website.
+	They allow users to enter information such as names, emails, passwords, feedback, or choices — and send that data to a server for processing 
+	(e.g., login, 	registration, or search).
+
+	A form is created using the <form> tag and can include various form controls like text boxes, dropdowns, buttons, and more.
+
+
+Que. 2: Explain the difference between the GET and POST methods in form submission.When should each be used?
+-->	GET Method : The GET method sends form data by appending it to the URL as query parameters.
+
+-->	POST Method : The POST method sends form data inside the request body, not visible in the URL.
+
+
+	Use GET when you want to retrieve or search data and make the URL shareable.
+
+	Use POST when you want to send or modify data securely and privately (like login or registration).
+
